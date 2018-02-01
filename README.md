@@ -1,0 +1,2 @@
+# Hibernate_Class_Mapping
+Hibernate_Class_Mapping
