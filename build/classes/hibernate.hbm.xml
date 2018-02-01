@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="false" dynamic-update="false" mutable="true" name="org.java.User" table="tbl_User" optimistic-lock="version" polymorphism="implicit" select-before-update="false">
+  
+    <id name="uid" column="u_id">
+        <generator class="increment"/>
+    </id>
+    <property name="unm" column="u_name"/>
+    <property name="address" column="addr"/>
+    <property name="phno" column="mno"/>
+    <property name="dob" column="birthdate"/>
+   
+  </class>
+</hibernate-mapping>
